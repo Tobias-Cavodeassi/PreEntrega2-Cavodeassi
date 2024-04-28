@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-family: "Allura", cursive;
+    text-align: center;
+    color: white;
+    font-size: 150px;
+    padding: 205px;
+    background-image: url(../assets/img/vinilo_banner.jpeg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+h2{
+    font-family: "Noto Sans", sans-serif;
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: underline;
+    font-size: 160%;
+}
+h3{
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-decoration: underline;
+}
+h4{
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 600;
+    margin-top: 15px;
+    margin-left: 30px;
+}
+h5{
+    font-size: larger;
+    text-decoration: underline;
+}
+.header{
+    font-size: 120%;
+    font-family: "Open Sans", sans-serif;
+    padding: 10px 20px;
+    display: inline-block;
+}
+header{
+    text-align: center;
+    background-color: rgb(50, 50, 50);
+    text-transform: uppercase;
+}
+a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+p{
+    font-family: "Noto Sans", sans-serif;
+    padding: 5px;
+    text-align: justify;
+}
+.introduction{
+    background-color: rgb(206, 206, 206);
+    text-align: center;
+    padding: 10px;
+}
+.text_1{
+    font-family: "Noto Sans", sans-serif;
+    text-align: center;
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: rgb(206, 206, 206);
+}
+.text_2{
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: justify;
+}
+.text_2_bold{
+    font-weight: 700;
+}
+.text_3{
+    text-align: center;
+    background-color: rgb(206, 206, 206);
+    padding: 10px;
+    margin-top: 15px;
+}
+.nosotros{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 15px;
+    text-align: justify;
+}
+.nosotros_bold{
+    font-weight: 800;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+/* IMAGENES DE EJEMPLO */
+.catalogo_list{
+    font-family: "Noto Sans", sans-serif;
+    margin: 15px;
+    text-align: center;
+    list-style: none;
+    font-style: italic;
+}
+iframe{
+    padding: 0px 50px 50px 50px;
+}
+.img_vinilo_1{
+    background-color: rgb(206, 206, 206);
+    padding: 15px 15px 60px 15px;
+    margin-left: 50px;
+    margin-top: 30px;
+    border-radius: 4%;
+}
+.img_vinilo_2{
+    background-color: rgb(206, 206, 206);
+    padding: 15px 15px 60px 15px;
+    margin-left: 50px;
+    margin-top: 30px;
+    border-radius: 4%;
+}
+.img_vinilo_3{
+    background-color: rgb(206, 206, 206);
+    padding: 15px 15px 60px 15px;
+    margin-left: 50px;
+    margin-top: 30px;
+    border-radius: 4%;
+}
+footer{
+    font-family: "Noto Sans", sans-serif;
+    background-color: rgb(50, 50, 50);
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+}
+.footer{
+    display: inline-block;
+    padding-left: 40px;
+}
+.footer_list{
+    list-style: none;
+}
+form{
+    font-family: "Noto Sans", sans-serif;
+    padding: 30px;
+}
