@@ -6,6 +6,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 h1{
@@ -122,11 +123,25 @@ p{
     padding-left: 50px;
     padding-right: 50px;
 }
+.grid_container{
+    display: grid;
+    margin: 30px 0px 30px 0px;
+    background-color: rgb(206, 206, 206);
+    /* grid-template-columns: auto auto auto; */
+    justify-content: center;
+    padding: 20px 20px 20px 20px;
+}
+.grid_item{
+    margin: 20px;
+    border-radius: 10px;
+    padding-top: 10px ;
+    background-color: rgb(235, 235, 235);
+}
 iframe{
     padding: 0px 50px 50px 50px;
 }
 
-/* IMAGENES DE EJEMPLO */
+/* IMAGENES PRODUCTOS */
 .catalogo_list{
     font-family: "Noto Sans", sans-serif;
     margin: 15px;
@@ -155,6 +170,8 @@ iframe{
     margin-top: 30px;
     border-radius: 4%;
 }
+
+/* FOOTER */
 footer{
     font-family: "Noto Sans", sans-serif;
     background-color: rgb(50, 50, 50);
@@ -169,6 +186,8 @@ footer{
 .footer_list{
     list-style: none;
 }
+
+/* FORMULARIO */
 .form{
     font-family: "Noto Sans", sans-serif;
     padding: 30px;
