@@ -72,17 +72,30 @@ p{
     padding: 5px;
     text-align: justify;
 }
-.introduction{
+.introduccion{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    justify-content: center;
     background-color: rgb(206, 206, 206);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.caja{
+    width: 500px;
     text-align: center;
-    padding: 10px;
+    border: solid 5px rgb(50, 50, 50);
+    border-radius: 15px;
+    padding: 5px 25px;
+    margin: 20px;
 }
 .text_1{
     font-family: "Noto Sans", sans-serif;
-    text-align: center;
-    margin-bottom: 15px;
     padding: 10px;
-    background-color: rgb(206, 206, 206);
+    text-decoration: none;
 }
 .text_2{
     margin-left: 40px;
@@ -96,7 +109,7 @@ p{
     text-align: center;
     background-color: rgb(206, 206, 206);
     padding: 10px;
-    margin-top: 15px;
+    margin-top: 40px;
 }
 .nosotros{
     padding-left: 50px;
@@ -109,6 +122,9 @@ p{
     padding-left: 50px;
     padding-right: 50px;
 }
+iframe{
+    padding: 0px 50px 50px 50px;
+}
 
 /* IMAGENES DE EJEMPLO */
 .catalogo_list{
@@ -117,9 +133,6 @@ p{
     text-align: center;
     list-style: none;
     font-style: italic;
-}
-iframe{
-    padding: 0px 50px 50px 50px;
 }
 .img_vinilo_1{
     background-color: rgb(206, 206, 206);
@@ -156,7 +169,7 @@ footer{
 .footer_list{
     list-style: none;
 }
-form{
+.form{
     font-family: "Noto Sans", sans-serif;
     padding: 30px;
 }
