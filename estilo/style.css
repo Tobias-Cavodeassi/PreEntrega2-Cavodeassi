@@ -11,13 +11,13 @@
 
 h1{
     font-family: "Allura", cursive;
-    text-align: center;
     color: white;
+    text-align: center;
     font-size: 150px;
-    padding: 205px;
-    background-image: url(../assets/img/vinilo_banner.jpeg); 
-    background-repeat: no-repeat;
+    background-image: url(../assets/img/vinilo_banner.jpeg);
+    background-repeat: no-repeat; 
     background-size: cover;
+    background-position: center;
     background-attachment: fixed;
     text-shadow: 0 0 5px rgb(0, 0, 0);
 }
@@ -137,11 +137,60 @@ p{
     padding-top: 10px ;
     background-color: rgb(235, 235, 235);
 }
-iframe{
-    padding: 0px 50px 50px 50px;
-}
 
-/* IMAGENES PRODUCTOS */
+/* INICIO MEDIA QUERIES */
+@media (min-width: 320px){
+    h1{
+        font-size: 70px;
+        text-align: center;
+        background-size: cover;
+        padding: 70px;
+    }
+    iframe{
+        height: 300px;
+        width: 300px;
+        padding-left: 20px;
+        padding-bottom: 20px;
+    }   
+}
+@media (min-width: 515px){
+    h1{
+        font-size: 90px;
+        text-align: center;
+        padding: 150px;
+    }
+    iframe{
+        height: 400px;
+        width: 500px;
+        padding-left: 20px;
+        padding-bottom: 20px;
+    }
+}
+@media (min-width: 750px){
+    h1{
+        font-size: 150px;
+        padding: 205px;
+        text-align: center;
+    }
+    iframe{
+        width: 750px;
+        height: 500px;
+        padding: 0px 40px 50px 40px;
+    }
+    .tarjetas_productos{
+        grid-template-columns: auto auto auto;
+        justify-content: space-evenly;
+    }
+    .tarjeta_album{
+        padding: 15px 15px 60px 15px;
+        border-radius: 10px;
+    }
+}
+@media (max-width: 375px){
+    
+}
+/* FIN MEDIA QUERIES */
+
 .catalogo_list{
     font-family: "Noto Sans", sans-serif;
     margin: 15px;
@@ -149,26 +198,16 @@ iframe{
     list-style: none;
     font-style: italic;
 }
-.img_vinilo_1{
+
+/* IMAGENES PRODUCTOS */
+.tarjetas_productos{
+    display: grid;
     background-color: rgb(206, 206, 206);
-    padding: 15px 15px 60px 15px;
-    margin-left: 50px;
-    margin-top: 30px;
-    border-radius: 4%;
 }
-.img_vinilo_2{
-    background-color: rgb(206, 206, 206);
-    padding: 15px 15px 60px 15px;
-    margin-left: 50px;
-    margin-top: 30px;
-    border-radius: 4%;
-}
-.img_vinilo_3{
-    background-color: rgb(206, 206, 206);
-    padding: 15px 15px 60px 15px;
-    margin-left: 50px;
-    margin-top: 30px;
-    border-radius: 4%;
+.tarjeta_album{
+    background-color: rgb(235, 235, 235);
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 /* FOOTER */
